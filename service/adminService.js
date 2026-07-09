@@ -3,10 +3,7 @@
 /** 
 module.exports.adminLoginSuccess = function(redirectPage, res) {
     console.log({redirectPage})
-    if (redirectPage) {
-        return res.redirect(redirectPage)
-    } else {
-        return res.redirect('/admin')
-    }
+    if (redirectPage) return res.redirect(redirectPage);
+    return res.redirect('/admin');
 }
 */
